@@ -1,0 +1,32 @@
+Title / concession docs — grant/lease/license, maps, coordinates, expiry/renewal terms (PDF).
+Chain of title / ownership history & register extracts (PDF).
+Claim boundaries as GIS files (shapefile / KMZ / GeoJSON) + simple map image.
+Drill database (digital) — collars, surveys, downhole intervals, geology, assay intervals (CSV / XLSX).
+Original assay certificates / lab reports (scanned PDFs) — linked to drill IDs.
+QA/QC records & protocol — standards/blanks/duplicates, lab QA reports (CSV/PDF).
+Competent person’s summary or technical summary (NI-43-101 / JORC style, or short technical memo) — contains resource statement if any.
+Geological maps & cross-sections (PDF + native files if possible).
+Sampling protocols & chain-of-custody (how samples were collected, prepared, transported).
+Data-room index + contact list (master index with file names, dates, author, contact for technical and legal).
+Material encumbrances — royalties, NSRs, existing farm-ins, liens (PDF).
+Permits status summary — what permits exist, what is pending, timeline/authority (one-page summary + key permit PDFs).
+Raw geophysical & geochemical datasets (grids, surveys, CSVs + interpreted products).
+Block model / resource model exports (if a resource exists) — native + CSV summaries.
+Core photos & logging sheets (organized by hole).
+Metallurgical testwork (basic) — bottle rolls, head assays, recovery assumptions (PDF).
+Preliminary economic inputs — high level CAPEX/OPEX assumptions or unit cost benchmarks (spreadsheet).
+Exploration/drill permits and approvals (PDFs).
+Access / land access agreements (surface rights, easements, compensation agreements).
+Community & stakeholder engagement records — MoUs, meeting minutes, grievance logs.
+Environmental baseline studies (high level) — water, flora/fauna reports summary.
+Work programs & budget history — past and planned exploration spend (XLSX/PDF).
+Historical production reports (if historic small-scale operation exists).
+Geotechnical notes (for early pits/ trenches).
+Hydrogeology or preliminary water studies.
+Contractor proposals (drilling, surveying).
+Insurance / performance bonds (if relevant to permits).
+Local supplier / services list (to assess logistics).
+High-resolution topography / DEM files.
+
+
+

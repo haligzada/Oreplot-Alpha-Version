@@ -1,0 +1,24 @@
+1. Probability-Weighted DCF (Risk-Adjusted NPV)
+
+A valuation method where the DCF result is multiplied by explicit probabilities of success at each project stage (e.g., exploration success, permitting, financing, construction).
+It produces a more realistic value by incorporating technical, geological, and execution risks directly into the cash-flow model.
+
+2. Monte Carlo Risk Modeling
+
+A simulation-based analysis that runs thousands of scenarios with varying commodity prices, grades, recoveries, capex, and opex.
+It generates a distribution of outcomes (P10/P50/P90 values), showing how uncertainty impacts project value and highlighting both upside potential and downside risk.
+
+3. Income Approach — Discounted Cash Flow (DCF)
+
+A cash-flow projection model based on production schedules, operating costs, capital costs, and commodity forecasts, discounted to present value.
+It represents the intrinsic economic value of the mining project under a single base-case scenario.
+
+4. Cost Approach (Kilburn / Exploration Replacement Cost)
+
+A method that values early-stage exploration projects based on the cost required to recreate the existing level of geological knowledge.
+It considers past exploration spending, adjusts for work quality and discovery potential, and provides a minimum “floor value” when economic studies are not available.
+
+5. Decision Tree / Stage-Gate Analysis (EMV)
+
+A sequential decision model that maps out key project stages — such as drilling, resource definition, PEA, PFS, and construction — each with its own costs, success probabilities, and outcomes.
+Expected Monetary Value (EMV) is calculated at each branch, helping investors understand the optimal path and value of progressing (or stopping) the project.

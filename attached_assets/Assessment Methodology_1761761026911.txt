@@ -1,0 +1,82 @@
+scores, weight those sub-scores, sum to a normalized investment score (0–100). That score is then used to assign a probability of success and to risk-adjust financial metrics (rNPV / EV). Below is a clear, repeatable method plus concrete formulas and a worked example you can copy into a spreadsheet.
+________________________________________
+1) Choose categories & weights (example for exploration)
+A common weights set for early-stage projects (you can change numbers to match your investor profile):
+•	Geology / prospectivity — 35
+•	Resource potential / model confidence — 20
+•	Economics / unit-cost & upside case — 15
+•	Legal & title risk — 10
+•	Permitting & ESG / community — 10
+•	Data quality & QAQC — 10
+Total weight = 100.
+________________________________________
+2) Score each category (scale 0–10)
+For each category a geologist / tech lead gives a score from 0 (worst) to 10 (best). Convert to normalized weighted contribution.
+Formula for contribution of category i
+C_i=S_i/10×W_i
+
+Where:
+	S_i= score in category i(0–10)
+	W_i= weight for category i
+Overall Investment Score (0–100)
+"Score"=∑_i C_i
+
+3) Worked numeric example (digit-by-digit arithmetic)
+Use the weights above. Suppose the assessor gives these raw scores:
+	Geology S_1=7
+	Resource potential S_2=5
+	Economics S_3=4
+	Legal/title S_4=8
+	Permitting / ESG S_5=6
+	Data quality S_6=5
+Compute each category contribution:
+	Geology: C_1=(7/10)×35
+	7×35=245.
+	245÷10=24.5.
+	So C_1=24.5.
+	Resource potential: C_2=(5/10)×20
+	5×20=100.
+	100÷10=10.
+	So C_2=10.
+	Economics: C_3=(4/10)×15
+	4×15=60.
+	60÷10=6.
+	So C_3=6.
+	Legal/title: C_4=(8/10)×10
+	8×10=80.
+	80÷10=8.
+	So C_4=8.
+	Permitting/ESG: C_5=(6/10)×10
+	6×10=60.
+	60÷10=6.
+	So C_5=6.
+	Data quality: C_6=(5/10)×10
+	5×10=50.
+	50÷10=5.
+	So C_6=5.
+Add them step-by-step:
+	24.5+10=34.5.
+	34.5+6=40.5.
+	40.5+8=48.5.
+	48.5+6=54.5.
+	54.5+5=59.5.
+Final Investment Score = 59.5 / 100.
+Typical interpretation:
+	> 70 → favourable (fast-track or term sheet)
+	50–70 → proceed to deeper DD (drill program, PEA, more testwork)
+	< 50 → reject or restructure (farm-out, lower price, more data required)
+________________________________________
+4) Convert score → probability of success → risk-adjust financials
+A simple mapping used by many investors:
+Probability of Success (PoS) = Score / 100.
+From the worked example: PoS = 59.5/100=0.595.
+If the project un-risked NPV = $50,000,000 then:
+Risk-adjusted NPV (rNPV) = NPV × PoS.
+Compute rNPV stepwise:
+	50,000,000×0.5=25,000,000.
+	50,000,000×0.09=4,500,000.
+	50,000,000×0.005=250,000.
+	Sum = 25,000,000+4,500,000+250,000=29,750,000.
+So rNPV = $29,750,000.
+(That arithmetic used decomposition: 0.595=0.5+0.09+0.005.)
+
